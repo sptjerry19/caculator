@@ -1,100 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caculator</title>
-    <link rel="stylesheet" href="caculator.css">
-</head>
-<body>
+    <link rel="stylesheet" href="caculator.css" />
+  </head>
+  <body>
     <p class="view"></p>
     <div id="all">
-    <!--Line 1-->
-    
-    <div class="container">
-        <button class="one"
-        onclick="
+      <!--Line 1-->
+
+      <div class="container">
+        <button
+          class="one"
+          onclick="
             element('.one')
-        ">1</button>
-        
-        <button class="four"
-        onclick="
+        "
+        >
+          1
+        </button>
+
+        <button
+          class="four"
+          onclick="
             element('.four')
-        ">4</button>
-        
-        <button class="seven"
-        onclick="
+        "
+        >
+          4
+        </button>
+
+        <button
+          class="seven"
+          onclick="
             element('.seven')
-        ">7</button>
-        
-        <button class="zero"
-        onclick=" 
+        "
+        >
+          7
+        </button>
+
+        <button
+          class="zero"
+          onclick=" 
             element('.zero')
             clear()
-        ">0</button>
+        "
+        >
+          0
+        </button>
         <button
-        onclick="
+          onclick="
         
         clearItem()
-        ">Clear</button>
-    
-</div>
-    
-    <div class="container">
-        <button class="two"
-        onclick="
+        "
+        >
+          Clear
+        </button>
+      </div>
+
+      <div class="container">
+        <button
+          class="two"
+          onclick="
         element('.two')    
-        ">2</button>
-        <button class="five"
-        onclick="
+        "
+        >
+          2
+        </button>
+        <button
+          class="five"
+          onclick="
         element('.five')
-        ">5</button>
-        <button class="eight"
-        onclick="
+        "
+        >
+          5
+        </button>
+        <button
+          class="eight"
+          onclick="
         element('.eight')
-        ">8</button>
-        <button class="dot"
-        onclick=" 
+        "
+        >
+          8
+        </button>
+        <button
+          class="dot"
+          onclick=" 
         element('.dot')
-        ">.</button>
-        
-    </div>
-    
-    <div class="container">
-        <button class="three"
-        onclick="
-        element('three')
-        ">3</button>
-        <button class="six"
-        onclick="
-        element('six')
-        ">6</button>
-        <button class="nine"
-        onclick="
-        element('nine')
-        ">9</button>
-        <button class="result" onclick="
+        "
+        >
+          .
+        </button>
+      </div>
+
+      <div class="container">
+        <button
+          class="three"
+          onclick="
+        element('.three')
+        "
+        >
+          3
+        </button>
+        <button
+          class="six"
+          onclick="
+        element('.six')
+        "
+        >
+          6
+        </button>
+        <button
+          class="nine"
+          onclick="
+        element('.nine')
+        "
+        >
+          9
+        </button>
+        <button
+          class="result"
+          onclick="
         mathResult()
-        ">=</button>
-    </div>
-    
-    <div class="container">
-        <button class="sign plus"
-        onclick="
+        "
+        >
+          =
+        </button>
+      </div>
+
+      <div class="container">
+        <button
+          class="sign plus"
+          onclick="
         element('.plus')
-        ">+</button>
-        <button class="sign minus" onclick="
+        "
+        >
+          +
+        </button>
+        <button
+          class="sign minus"
+          onclick="
         element('.minus')
-        ">-</button>
-        <button class="sign multipal" onclick="
+        "
+        >
+          -
+        </button>
+        <button
+          class="sign multipal"
+          onclick="
         element('.multipal')
-        ">*</button>
-        <button class="sign devide" onclick="
+        "
+        >
+          *
+        </button>
+        <button
+          class="sign devide"
+          onclick="
         element('.divide')
-        ">/</button>
+        "
+        >
+          /
+        </button>
+      </div>
     </div>
-        
-</div>
-        <script src="caculator.js"></script>
-</body>
+    <script src="caculator.js"></script>
+  </body>
 </html>
